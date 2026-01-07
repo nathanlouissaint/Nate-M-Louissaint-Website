@@ -25,13 +25,7 @@ export const Hero: React.FC = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 items-center">
-          <a 
-            href="#case-studies" 
-            className="group relative px-10 py-5 bg-white text-black font-black text-sm uppercase tracking-widest rounded-xl hover:bg-gold-500 hover:text-black hover:scale-105 transition-all shadow-2xl overflow-hidden"
-          >
-            <span className="relative z-10">Analysis Portfolio</span>
-            <div className="absolute inset-0 bg-gold-400 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
-          </a>
+         
           <a 
             href="https://docs.google.com/document/d/1GJg9tcnW5GRkQIUKtS6vJH3DbZF9Vq1B/edit?usp=sharing&ouid=100421239956820486443&rtpof=true&sd=true" 
             target="_blank"
