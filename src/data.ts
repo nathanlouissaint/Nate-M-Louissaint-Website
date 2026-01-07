@@ -23,15 +23,17 @@ export const CASE_STUDIES: CaseStudy[] = [
     tags: ['Enterprise Platforms', 'UX Signals', 'Remediation']
   },
   {
-    id: 'data-governance',
-    title: 'Scalable Content Governance',
-    category: 'Digital Operations',
+    id: 'paid-performance-optimization',
+    title: 'Paid Search & Social Performance Optimization',
+    category: 'Performance Marketing',
     client: 'CSTE',
-    description: 'Implemented cross-functional workflows between Engineering and Legal to strengthen content quality signals and long-term search trust.',
-    metric: '',
-    metricLabel: 'Efficiency in Content Updates (Suggested)',
-    tags: ['Workflow Opt', 'Governance', 'Risk Mitigation']
+    description:
+      'Launched and optimized paid search and paid social campaigns to drive qualified acquisition while improving efficiency. Used performance data across targeting, queries, audiences, and landing pages to iterate on campaign structure, correct tracking gaps, and reduce wasted spend.',
+    metric: 'Acquisition Efficiency',
+    metricLabel: 'Performance Optimization',
+    tags: ['Google Ads', 'Meta Ads', 'Conversion Tracking', 'Landing Page Optimization']
   }
+  
 ];
 
 export const EXPERIENCES: Experience[] = [
