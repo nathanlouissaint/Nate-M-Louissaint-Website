@@ -37,11 +37,12 @@ export const Hero: React.FC = () => {
         </div>
 
         <div className="mt-24 pt-12 border-t border-white/5 w-full max-w-4xl">
-          <p className="text-[10px] text-gray-600 font-black uppercase tracking-[0.3em] mb-8">Strategic Partnerships</p>
+          <p className="text-[10px] text-gray-600 font-black uppercase tracking-[0.3em] mb-8">Performance Growth Stack</p>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-30">
-             <span className="text-2xl font-black italic tracking-tighter text-white">VERIZON</span>
-             <span className="text-2xl font-black italic tracking-tighter text-white">CSTE.ORG</span>
-             <span className="text-2xl font-black italic tracking-tighter text-white">GA SOLUTIONS</span>
+             <span className="text-2xl font-black italic tracking-tighter text-white">Paid Acquisition Systems</span>
+             <span className="text-2xl font-black italic tracking-tighter text-white">Conversion Rate Optimization</span>
+             <span className="text-2xl font-black italic tracking-tighter text-white">Technical & Enterprise SEO</span>
+             
           </div>
         </div>
       </div>

@@ -34,9 +34,9 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
         </div>
         <a
           href="#contact"
-          className="bg-white text-black text-[10px] uppercase tracking-tighter font-black px-5 py-2.5 rounded-lg hover:bg-gold-500 hover:text-black transition-all"
+          className="bg-black text-black text-[10px] uppercase tracking-tighter font-black px-5 py-2.5 rounded-lg hover:bg-gold-500 hover:text-black transition-all"
         >
-          Contact Strategy
+          Contact Me
         </a>
       </div>
     </nav>

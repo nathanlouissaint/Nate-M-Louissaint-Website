@@ -8,7 +8,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     category: 'Technical SEO',
     client: 'Council of State and Territorial Epidemiologists',
     description: 'Conducted exhaustive site-wide audits to identify risks in indexability, accessibility, and search engine compliance for high-traffic public health platforms.',
-    metric: 'TBD',
+    metric: '',
     metricLabel: 'Increase in Organic Visibility (Suggested)',
     tags: ['Site Audits', 'Compliance', 'Indexability']
   },
@@ -18,7 +18,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     category: 'Enterprise SEO',
     client: 'Verizon',
     description: 'Reviewed and optimized enterprise website structures to align with SEO best practices, prioritizing remediation based on traffic exposure and business risk.',
-    metric: 'TBD',
+    metric: '',
     metricLabel: 'Reduction in Technical Debt (Suggested)',
     tags: ['Enterprise Platforms', 'UX Signals', 'Remediation']
   },
@@ -28,7 +28,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     category: 'Digital Operations',
     client: 'CSTE',
     description: 'Implemented cross-functional workflows between Engineering and Legal to strengthen content quality signals and long-term search trust.',
-    metric: 'TBD',
+    metric: '',
     metricLabel: 'Efficiency in Content Updates (Suggested)',
     tags: ['Workflow Opt', 'Governance', 'Risk Mitigation']
   }
