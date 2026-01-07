@@ -29,7 +29,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     client: 'CSTE',
     description:
       'Launched and optimized paid search and paid social campaigns to drive qualified acquisition while improving efficiency. Used performance data across targeting, queries, audiences, and landing pages to iterate on campaign structure, correct tracking gaps, and reduce wasted spend.',
-    metric: 'Acquisition Efficiency',
+    metric: '',
     metricLabel: 'Performance Optimization',
     tags: ['Google Ads', 'Meta Ads', 'Conversion Tracking', 'Landing Page Optimization']
   }
