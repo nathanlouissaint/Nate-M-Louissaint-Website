@@ -18,10 +18,10 @@ export const Hero: React.FC = () => {
           <span className="text-gold-500 text-gold-glow">& CRO STRATEGY.</span>
         </h1>
         
-        <p className="text-lg md:text-2xl text-gray-400 max-w-3xl mb-14 font-light leading-relaxed tracking-tight">
-          Senior-level Website Optimization & Performance Media Strategy. 
-          Bridging technical acquisition with business-critical outcomes 
-          for high-traffic enterprise platforms.
+        <p className="text-lg md:text-xl text-gray-400 max-w-4xl mb-14 font-light leading-relaxed tracking-tight">
+          I design and operate performance-driven digital growth systems, specializing in senior-level website optimization 
+          and performance media strategy—bridging technical acquisition with business-critical outcomes for high-traffic 
+          enterprise platforms.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 items-center">
@@ -33,10 +33,12 @@ export const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-gold-400 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
           </a>
           <a 
-            href="#contact" 
+            href="https://docs.google.com/document/d/1GJg9tcnW5GRkQIUKtS6vJH3DbZF9Vq1B/edit?usp=sharing&ouid=100421239956820486443&rtpof=true&sd=true" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-10 py-5 border border-white/10 glass-panel text-white font-black text-sm uppercase tracking-widest rounded-xl hover:bg-white/5 hover:scale-105 transition-all"
           >
-            Growth Consultation
+            View My Resume
           </a>
         </div>
 
