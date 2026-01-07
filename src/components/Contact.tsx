@@ -45,7 +45,7 @@ export const Contact: React.FC = () => {
             type="submit" 
             className="md:col-span-2 bg-white text-black font-black text-xs uppercase tracking-[0.2em] py-6 rounded-xl hover:bg-gold-500 transition-all shadow-2xl hover:scale-[1.01] active:scale-95"
           >
-            Initiate Consultation
+            Send Message
           </button>
         </form>
 
@@ -54,11 +54,11 @@ export const Contact: React.FC = () => {
             <span className="w-4 h-[1px] bg-gold-500/30"></span>
             Email
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-all flex items-center gap-2">
+          <a href="https://www.linkedin.com/in/nathan-louissaint-3a17a3387/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-all flex items-center gap-2">
             <span className="w-4 h-[1px] bg-gold-500/30"></span>
             LinkedIn
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-all flex items-center gap-2">
+          <a href="https://github.com/nathanlouissaint" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-all flex items-center gap-2">
             <span className="w-4 h-[1px] bg-gold-500/30"></span>
             GitHub
           </a>

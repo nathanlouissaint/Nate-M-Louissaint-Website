@@ -5,35 +5,48 @@ export const Strategy: React.FC = () => {
   return (
     <div className="grid lg:grid-cols-2 gap-24 items-start">
       <div className="sticky top-32">
-        <h2 className="text-xs font-black text-gold-500 uppercase tracking-[0.4em] mb-6">The Methodology</h2>
-        <h3 className="text-5xl md:text-6xl font-black text-white mb-8 tracking-tighter leading-none">High-Status <br/>Growth Ops.</h3>
-        <div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light">
-          <p>
-            I architect digital ecosystems for enterprise reliability. My framework treats SEO not as a siloed channel, 
-            but as a critical component of platform governance and user satisfaction.
-          </p>
-          <p>
-            Specializing in high-traffic, public-facing environments like <span className="text-white font-bold">Verizon</span> and <span className="text-white font-bold">CSTE</span>, 
-            I navigate complex technical requirements and legal constraints to unlock hidden organic revenue.
-          </p>
-        </div>
+      <h2 className="text-xs font-black text-gold-500 uppercase tracking-[0.4em] mb-6">
+  The Approach
+</h2>
+<h3 className="text-5xl md:text-6xl font-black text-white mb-8 tracking-tighter leading-none">
+  How I Approach <br />SEO & Performance Marketing
+</h3>
+
+<div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light">
+  <p>
+    I approach SEO and performance marketing as part of a broader digital operation—not as isolated channels. 
+    My focus is on building reliable, scalable practices that support long-term growth, site quality, and user experience.
+  </p>
+  <p>
+    I’ve worked in high-traffic, public-facing environments where technical constraints, compliance requirements, 
+    and cross-team coordination are part of daily execution. In those settings, I prioritize clear measurement, 
+    thoughtful prioritization, and changes that deliver measurable impact without introducing risk.
+  </p>
+  <p>
+    My experience includes work on complex platforms at 
+    <span className="text-white font-bold"> Verizon</span> and 
+    <span className="text-white font-bold"> CSTE</span>, 
+    where SEO decisions intersect with engineering, legal, accessibility, and performance considerations.
+  </p>
+</div>
+
       </div>
       
       <div className="grid gap-6">
         {[
           {
             title: 'Technical Foundation',
-            desc: 'Deep-dive audits into indexability, schema architecture, and server-side compliance.',
+            desc: 'Technical SEO audits focused on indexability, crawl efficiency, structured data, and server-side considerations to ensure sites are discoverable, stable, and search-friendly..',
             icon: '◈'
           },
           {
             title: 'Data Intelligence',
-            desc: 'Advanced GA4 segmentation and behavior modeling to drive corrective action.',
+            desc: 'Using GA4 and analytics to understand user behavior, identify performance gaps, and guide prioritization across SEO, content, and paid efforts.',
             icon: '✧'
           },
           {
             title: 'Cross-Functional Ops',
-            desc: 'Integrating Engineering, Legal, and Marketing workflows for scalable governance.',
+            desc: 'Working closely with engineering, legal, and marketing teams to align SEO and performance work with platform constraints, compliance requirements, and business priorities..',
             icon: '△'
           }
         ].map((pillar, i) => (

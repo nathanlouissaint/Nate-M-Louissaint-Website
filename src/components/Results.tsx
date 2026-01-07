@@ -7,7 +7,7 @@ export const Results: React.FC = () => {
     <div className="max-w-5xl mx-auto">
       <div className="text-center mb-24">
         <h2 className="text-xs font-black text-gold-500 uppercase tracking-[0.4em] mb-6">Impact History</h2>
-        <h3 className="text-5xl md:text-6xl font-black text-white tracking-tighter">Strategic Tenure.</h3>
+        <h3 className="text-5xl md:text-6xl font-black text-white tracking-tighter">In-House Impact</h3>
       </div>
       
       <div className="relative space-y-20">

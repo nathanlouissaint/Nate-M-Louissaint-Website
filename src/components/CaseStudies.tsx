@@ -8,7 +8,7 @@ export const CaseStudies: React.FC = () => {
       <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
         <div className="max-w-xl">
           <h2 className="text-xs font-black text-gold-500 uppercase tracking-[0.4em] mb-6">Selected Analysis</h2>
-          <h3 className="text-5xl md:text-6xl font-black text-white tracking-tighter leading-none">Enterprise <br/>Case Library.</h3>
+          <h3 className="text-5xl md:text-6xl font-black text-white tracking-tighter leading-none">Enter <br/>Case Library.</h3>
         </div>
         <p className="text-gray-500 text-sm font-light leading-relaxed max-w-xs border-l border-white/10 pl-6">
           Strategic interventions focused on technical debt reduction and visibility optimization across major digital platforms.

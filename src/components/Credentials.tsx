@@ -6,8 +6,8 @@ export const Credentials: React.FC = () => {
   return (
     <div className="grid lg:grid-cols-2 gap-24">
       <div>
-        <h2 className="text-xs font-black text-gold-500 uppercase tracking-[0.4em] mb-6">Expertise Matrix</h2>
-        <h3 className="text-5xl md:text-6xl font-black text-white mb-10 tracking-tighter leading-none">Technical <br/>Pedigree.</h3>
+        <h2 className="text-xs font-black text-gold-500 uppercase tracking-[0.4em] mb-6">Core Capabilities</h2>
+        <h3 className="text-5xl md:text-6xl font-black text-white mb-10 tracking-tighter leading-none">Technical <br/>Experience.</h3>
         
         <div className="space-y-12">
           {SKILLS.map((cat) => (
@@ -33,11 +33,11 @@ export const Credentials: React.FC = () => {
           {/* Decorative background element */}
           <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-gold-500/10 rounded-full blur-[80px] group-hover:scale-110 transition-transform duration-700"></div>
           
-          <h4 className="text-white font-black text-2xl mb-10 tracking-tighter">Educational Governance</h4>
+          <h4 className="text-white font-black text-2xl mb-10 tracking-tighter">Education & Credentials</h4>
           <div className="space-y-10 relative z-10">
             <div className="group/item">
               <p className="text-gold-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 group-hover/item:translate-x-1 transition-transform">Degree Conferred</p>
-              <h5 className="text-white font-black text-xl tracking-tight">B.S. Information Systems</h5>
+              <h5 className="text-white font-black text-xl tracking-tight">B.A. Marketing</h5>
               <p className="text-gray-500 font-medium text-sm">Kennesaw State University • GA</p>
             </div>
             

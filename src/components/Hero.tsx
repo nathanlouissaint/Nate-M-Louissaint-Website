@@ -14,14 +14,13 @@ export const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-6xl md:text-[7.2rem] font-black mb-8 tracking-tighter leading-[0.9] text-white max-w-5xl drop-shadow-sm">
-          PAID ACQUISITION <br/> 
-          <span className="text-gold-500 text-gold-glow">& CRO STRATEGY.</span>
+        SEO <br/> 
+          <span className="text-gold-500 text-gold-glow">& Performance Marketing.</span>
         </h1>
         
         <p className="text-lg md:text-xl text-gray-400 max-w-4xl mb-14 font-light leading-relaxed tracking-tight">
-          I design and operate performance-driven digital growth systems, specializing in senior-level website optimization 
-          and performance media strategy—bridging technical acquisition with business-critical outcomes for high-traffic 
-          enterprise platforms.
+        I focus on SEO and performance marketing, helping teams grow qualified traffic, improve conversion rates, and measure 
+        impact across high-traffic digital properties.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 items-center">

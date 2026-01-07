@@ -63,15 +63,36 @@ export const EXPERIENCES: Experience[] = [
 
 export const SKILLS: Skill[] = [
   {
-    category: 'SEO & Technical',
-    items: ['Technical SEO Audits', 'Indexability', 'Crawlability', 'Accessibility', 'UX Signals', 'Site Structure']
+    category: 'SEO & Technical Foundation',
+    items: [
+      'Technical SEO Audits (Enterprise-Scale)',
+      'Indexability & Crawl Efficiency',
+      'Site Architecture & Internal Linking',
+      'Accessibility & Search Compliance',
+      'Page Experience & UX Signals'
+    ]
   },
   {
-    category: 'Analytics & Data',
-    items: ['GA4', 'Excel Analysis', 'Performance Monitoring', 'Root Cause Analysis', 'Trend Reporting']
+    category: 'Analytics & Performance Intelligence',
+    items: [
+      'GA4 Implementation & Analysis',
+  'Google Ads Performance Analysis',
+  'Meta (Facebook) Ads Performance Insights',
+  'Traffic & Conversion Diagnostics',
+  'Performance Monitoring & Reporting',
+  'Trend Analysis & Opportunity Identification',
+  'Data-Informed Prioritization'
+    ]
   },
   {
-    category: 'Ops & Governance',
-    items: ['Enterprise Governance', 'Content Quality Control', 'Risk Mitigation', 'Workflow Optimization', 'Compliance']
+    category: 'Cross-Functional Operations',
+    items: [
+      'Engineering & SEO Collaboration',
+      'Content Quality & Governance',
+      'Risk Assessment & Mitigation',
+      'Workflow Alignment Across Teams',
+      'Compliance-Aware SEO Execution'
+    ]
   }
+  
 ];
