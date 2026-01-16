@@ -19,8 +19,7 @@ export const Hero: React.FC = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-gray-400 max-w-4xl mb-14 font-light leading-relaxed tracking-tight">
-        I focus on SEO and performance marketing, helping teams grow qualified traffic, improve conversion rates, and measure 
-        impact across high-traffic digital properties.
+        I help businesses grow traffic and revenue through SEO, conversion-focused web development, and paid advertising.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 items-center">

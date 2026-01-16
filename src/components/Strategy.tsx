@@ -14,41 +14,46 @@ export const Strategy: React.FC = () => {
 
 <div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light">
   <p>
-    I approach SEO and performance marketing as part of a broader digital operation—not as isolated channels. 
-    My focus is on building reliable, scalable practices that support long-term growth, site quality, and user experience.
+    I approach SEO and performance marketing as part of a broader digital system—not as isolated channels or one-off tactics.
+    The goal is consistent, measurable growth that holds up over time, not short-term wins that introduce instability or risk.
   </p>
+
   <p>
-    I’ve worked in high-traffic, public-facing environments where technical constraints, compliance requirements, 
-    and cross-team coordination are part of daily execution. In those settings, I prioritize clear measurement, 
-    thoughtful prioritization, and changes that deliver measurable impact without introducing risk.
+    I’ve worked in high-traffic, public-facing environments where SEO decisions operate under real technical constraints,
+    compliance requirements, and cross-team dependencies. In those settings, I focus on clear measurement, disciplined
+    prioritization, and changes that improve performance without breaking critical systems.
   </p>
+
   <p>
-    My experience includes work on complex platforms at 
-    <span className="text-white font-bold"> Verizon</span> and 
-    <span className="text-white font-bold"> CSTE</span>, 
-    where SEO decisions intersect with engineering, legal, accessibility, and performance considerations.
+    In practice, my work spans technical SEO audits, site architecture and performance improvements, analytics-driven
+    decision-making, and close collaboration with engineering and marketing teams. I’ve applied this approach on complex
+    platforms at
+    <span className="text-white font-bold"> Verizon</span> and
+    <span className="text-white font-bold"> CSTE</span>, where scale, coordination, and accountability matter.
   </p>
 </div>
+
 
       </div>
       
       <div className="grid gap-6">
         {[
-          {
-            title: 'Technical Foundation',
-            desc: 'Technical SEO audits focused on indexability, crawl efficiency, structured data, and server-side considerations to ensure sites are discoverable, stable, and search-friendly..',
-            icon: '◈'
-          },
-          {
-            title: 'Data Intelligence',
-            desc: 'Using GA4 and analytics to understand user behavior, identify performance gaps, and guide prioritization across SEO, content, and paid efforts.',
-            icon: '✧'
-          },
-          {
-            title: 'Cross-Functional Ops',
-            desc: 'Working closely with engineering, legal, and marketing teams to align SEO and performance work with platform constraints, compliance requirements, and business priorities..',
-            icon: '△'
-          }
+      {
+        title: 'Technical Foundation',
+        desc: 'Technical SEO audits and infrastructure reviews focused on indexability, crawl efficiency, site architecture, and performance. Changes are evaluated for both SEO impact and system risk before implementation.',
+        icon: '◈'
+      },
+      {
+        title: 'Data & Measurement',
+        desc: 'Using GA4 and supporting analytics to understand user behavior, surface performance gaps, and prioritize work across SEO, content, and paid channels based on measurable impact.',
+        icon: '✧'
+      },
+      {
+        title: 'Cross-Functional Execution',
+        desc: 'Partnering closely with engineering, product, legal, and marketing teams to ship SEO and performance improvements that align with platform constraints, compliance requirements, and business priorities.',
+        icon: '△'
+      }
+      
         ].map((pillar, i) => (
           <div key={i} className="glass-panel p-10 rounded-2xl accent-border-gold group hover:bg-white/5 transition-all">
             <span className="text-gold-500 text-2xl mb-4 block font-serif">{pillar.icon}</span>
