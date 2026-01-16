@@ -10,7 +10,7 @@ export const Hero: React.FC = () => {
       <div className="relative z-10 animate-fade-in flex flex-col items-center">
         <div className="inline-flex items-center gap-2 px-4 py-1 mb-10 rounded-full border border-gold-500/20 bg-gold-500/5 text-gold-500 text-[10px] font-black tracking-[0.2em] uppercase">
           <span className="w-1.5 h-1.5 rounded-full bg-gold-500 animate-pulse"></span>
-          Enterprise Digital Operations
+          High-Traffic SEO & Performance Systems
         </div>
         
         <h1 className="text-6xl md:text-[7.2rem] font-black mb-8 tracking-tighter leading-[0.9] text-white max-w-5xl drop-shadow-sm">
@@ -21,6 +21,7 @@ export const Hero: React.FC = () => {
         <p className="text-lg md:text-xl text-gray-400 max-w-4xl mb-14 font-light leading-relaxed tracking-tight">
         I help businesses grow traffic and revenue through SEO, conversion-focused web development, and paid advertising.
         </p>
+        
         
         <div className="flex flex-col sm:flex-row gap-6 items-center">
          
