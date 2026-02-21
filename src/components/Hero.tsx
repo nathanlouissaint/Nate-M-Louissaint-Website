@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row gap-6 items-center">
          
           <a 
-            href="https://docs.google.com/document/d/1GJg9tcnW5GRkQIUKtS6vJH3DbZF9Vq1B/edit?usp=sharing&ouid=100421239956820486443&rtpof=true&sd=true" 
+            href="https://docs.google.com/document/d/15DstUiDTcJoyG8ldqGjAw3QRbletpsRHjA6eChlGL4A/edit?usp=sharing" 
             target="_blank"
             rel="noopener noreferrer"
             className="px-10 py-5 border border-white/10 glass-panel text-white font-black text-sm uppercase tracking-widest rounded-xl hover:bg-white/5 hover:scale-105 transition-all"
