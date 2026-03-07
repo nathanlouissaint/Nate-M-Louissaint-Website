@@ -3,11 +3,11 @@ import profile from "../assets/profile.png";
 
 export const About: React.FC = () => {
   return (
-    <section className="grid lg:grid-cols-2 gap-20 items-center py-24">
-
+    <section className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 md:gap-16 lg:gap-20 items-center py-16 sm:py-20 md:py-24">
+      
       {/* Image */}
-      <div className="flex justify-center lg:justify-start">
-        <div className="relative w-[320px] h-[400px] rounded-2xl overflow-hidden border border-white/10">
+      <div className="flex justify-center lg:justify-start order-1">
+        <div className="relative w-full max-w-[260px] sm:max-w-[300px] md:max-w-[320px] aspect-[4/5] rounded-2xl overflow-hidden border border-white/10">
           <img
             src={profile}
             alt="Nathan Louissaint"
@@ -17,16 +17,17 @@ export const About: React.FC = () => {
       </div>
 
       {/* Text */}
-      <div className="max-w-xl">
-        <h2 className="text-xs font-black text-gold-500 uppercase tracking-[0.4em] mb-6">
+      <div className="max-w-xl mx-auto lg:mx-0 text-center lg:text-left order-2">
+        <h2 className="text-xs sm:text-sm font-black text-gold-500 uppercase tracking-[0.3em] sm:tracking-[0.4em] mb-4 sm:mb-6">
           About
         </h2>
 
-        <h3 className="text-5xl md:text-6xl font-black text-white mb-8 tracking-tighter leading-none">
-          Product Engineer <br />Focused on Systems.
+        <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 sm:mb-8 tracking-tighter leading-tight">
+          Product Engineer <br className="hidden sm:block" />
+          Focused on Systems.
         </h3>
 
-        <div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light">
+        <div className="space-y-5 sm:space-y-6 text-gray-400 text-base sm:text-lg leading-relaxed font-light">
           <p>
             I'm Nathan Louissaint, a full-stack product engineer focused on
             building scalable web applications and analytics-driven systems.
@@ -44,10 +45,9 @@ export const About: React.FC = () => {
           </p>
 
           <p>
-            I enjoy solving complex product problems — whether that means
-            building new applications, improving system performance, or
-            designing data-driven workflows that help teams make better
-            decisions.
+            I enjoy solving complex product problems by building new
+            applications, improving system performance, and designing
+            data-driven workflows that help teams make better decisions.
           </p>
         </div>
       </div>
