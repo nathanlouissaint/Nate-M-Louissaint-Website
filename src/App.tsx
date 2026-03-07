@@ -8,6 +8,7 @@ import { Results } from './components/Results';
 import { Credentials } from './components/Credentials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { About } from "./components/About";
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('hero');
@@ -43,6 +44,11 @@ const App: React.FC = () => {
         <section id="hero">
           <Hero />
         </section>
+
+<section id="strategy" className="py-32">
+          <About />
+        </section>
+
 
         <section id="strategy" className="py-32">
           <Strategy />
