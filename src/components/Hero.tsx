@@ -1,30 +1,30 @@
-
 import React from 'react';
 
 export const Hero: React.FC = () => {
   return (
     <div className="min-h-[85vh] flex flex-col justify-center items-center text-center py-20 relative">
+      
       {/* Decorative background rhombuses */}
       <div className="absolute inset-0 bg-diamond opacity-30 pointer-events-none"></div>
       
       <div className="relative z-10 animate-fade-in flex flex-col items-center">
+
         <div className="inline-flex items-center gap-2 px-4 py-1 mb-10 rounded-full border border-gold-500/20 bg-gold-500/5 text-gold-500 text-[10px] font-black tracking-[0.2em] uppercase">
           <span className="w-1.5 h-1.5 rounded-full bg-gold-500 animate-pulse"></span>
-          High-Traffic SEO & Performance Systems
+          Product Engineering & Growth Systems
         </div>
         
         <h1 className="text-6xl md:text-[7.2rem] font-black mb-8 tracking-tighter leading-[0.9] text-white max-w-5xl drop-shadow-sm">
-        SEO <br/> 
-          <span className="text-gold-500 text-gold-glow">& Performance Marketing.</span>
+          Full-Stack <br/>
+          <span className="text-gold-500 text-gold-glow">Product Engineering.</span>
         </h1>
         
         <p className="text-lg md:text-xl text-gray-400 max-w-4xl mb-14 font-light leading-relaxed tracking-tight">
-        I help businesses grow traffic and revenue through SEO, conversion-focused web development, and paid advertising.
+          I design and build scalable web applications, analytics systems, and growth infrastructure. My work combines React-based product development with experimentation systems that improve performance, usability, and measurable business outcomes.
         </p>
         
-        
         <div className="flex flex-col sm:flex-row gap-6 items-center">
-         
+          
           <a 
             href="https://docs.google.com/document/d/15DstUiDTcJoyG8ldqGjAw3QRbletpsRHjA6eChlGL4A/edit?usp=sharing" 
             target="_blank"
@@ -33,17 +33,29 @@ export const Hero: React.FC = () => {
           >
             View My Resume
           </a>
+
         </div>
 
         <div className="mt-24 pt-12 border-t border-white/5 w-full max-w-4xl">
-          <p className="text-[10px] text-gray-600 font-black uppercase tracking-[0.3em] mb-8">Performance Growth Stack</p>
+          <p className="text-[10px] text-gray-600 font-black uppercase tracking-[0.3em] mb-8">
+            Product Engineering Stack
+          </p>
+
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-30">
-             <span className="text-2xl font-black italic tracking-tighter text-white">Paid Acquisition Systems</span>
-             <span className="text-2xl font-black italic tracking-tighter text-white">Conversion Rate Optimization</span>
-             <span className="text-2xl font-black italic tracking-tighter text-white">Technical & Enterprise SEO</span>
-             
+            <span className="text-2xl font-black italic tracking-tighter text-white">
+              React & Full-Stack Development
+            </span>
+
+            <span className="text-2xl font-black italic tracking-tighter text-white">
+              Analytics & Experimentation Systems
+            </span>
+
+            <span className="text-2xl font-black italic tracking-tighter text-white">
+              Performance & Web Infrastructure
+            </span>
           </div>
         </div>
+
       </div>
     </div>
   );

@@ -1,100 +1,149 @@
-
 import { CaseStudy, Experience, Skill } from './types';
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
-    id: 'cste-audit',
-    title: 'Enterprise-Scale Technical Audit',
-    category: 'Technical SEO',
+    id: 'cste-dashboards',
+    title: 'National Surveillance Data Dashboards',
+    category: 'Product Engineering',
     client: 'Council of State and Territorial Epidemiologists',
-    description: 'Conducted exhaustive site-wide audits to identify risks in indexability, accessibility, and search engine compliance for high-traffic public health platforms.',
-    metric: '',
-    metricLabel: 'Increase in Organic Visibility (Suggested)',
-    tags: ['Site Audits', 'Compliance', 'Indexability']
-  },
-  {
-    id: 'verizon-opt',
-    title: 'Platform Structure Optimization',
-    category: 'Enterprise SEO',
-    client: 'Verizon',
-    description: 'Reviewed and optimized enterprise website structures to align with SEO best practices, prioritizing remediation based on traffic exposure and business risk.',
-    metric: '',
-    metricLabel: 'Reduction in Technical Debt (Suggested)',
-    tags: ['Enterprise Platforms', 'UX Signals', 'Remediation']
-  },
-  {
-    id: 'paid-performance-optimization',
-    title: 'Paid Search & Social Performance Optimization',
-    category: 'Performance Marketing',
-    client: 'CSTE',
     description:
-      'Launched and optimized paid search and paid social campaigns to drive qualified acquisition while improving efficiency. Used performance data across targeting, queries, audiences, and landing pages to iterate on campaign structure, correct tracking gaps, and reduce wasted spend.',
-    metric: '',
-    metricLabel: 'Performance Optimization',
-    tags: ['Google Ads', 'Meta Ads', 'Conversion Tracking', 'Landing Page Optimization']
+      'Built and maintained React-based dashboards used to analyze national surveillance data across public health reporting environments. Focused on front-end scalability, data accessibility, and production reliability for high-traffic reporting workflows.',
+    metric: '40%',
+    metricLabel: 'Page Load Performance Improvement',
+    tags: ['React', 'Dashboards', 'REST APIs']
+  },
+  {
+    id: 'cste-performance',
+    title: 'Performance & Monitoring Infrastructure',
+    category: 'Performance Engineering',
+    client: 'Council of State and Territorial Epidemiologists',
+    description:
+      'Improved application performance through REST API optimization, caching strategies, and performance profiling. Implemented analytics and monitoring workflows to track reliability, user behavior, and reporting platform stability.',
+    metric: '40%',
+    metricLabel: 'Performance Improvement',
+    tags: ['Caching', 'Monitoring', 'Analytics']
+  },
+  {
+    id: 'verizon-experimentation',
+    title: 'Digital Experimentation & Journey Analysis',
+    category: 'Analytics Systems',
+    client: 'Verizon',
+    description:
+      'Supported experimentation and digital optimization initiatives by analyzing customer journey data, identifying workflow friction, and validating UX improvements through structured testing and attribution analysis across digital channels.',
+    metric: 'A/B Testing',
+    metricLabel: 'Experimentation Framework',
+    tags: ['A/B Testing', 'Journey Analysis', 'Attribution']
+  },
+  {
+    id: 'ai-studymate',
+    title: 'AI StudyMate',
+    category: 'Full-Stack Application',
+    client: 'Independent Project',
+    description:
+      'Built a full-stack web application that enables students to upload notes and automatically generate flashcards and trick-question quizzes using AI. Designed to reinforce comprehension through interactive study workflows and applied AI integration.',
+    metric: '3rd Place',
+    metricLabel: 'Project Competition Finish',
+    tags: ['Full-Stack', 'AI Integration', 'Web App']
   }
-  
 ];
 
 export const EXPERIENCES: Experience[] = [
   {
     id: 'exp1',
     company: 'Council of State and Territorial Epidemiologists (CSTE)',
-    role: 'Digital Platform Operations Manager (In-House)',
-    period: 'Jan 2022 - Dec 2025',
+    role: 'Web Operations Manager / Front-End Engineer',
+    period: 'Jul 2022 - Dec 2024',
     points: [
-      'Conducted enterprise-scale content and site audits to identify SEO risks related to indexability and compliance.',
-      'Analyzed user behavior data (GA4, Excel) to uncover traffic-impacting issues and translated insights into corrective actions.',
-      'Investigated and resolved technical anomalies in collaboration with engineering teams, reducing repeat SEO incidents.',
-      'Partnered cross-functionally to implement scalable governance and workflow improvements.'
+      'Built and maintained React-based dashboards enabling epidemiologists to analyze national surveillance data.',
+      'Improved page load performance by 40% through REST API optimization, caching strategies, and performance profiling.',
+      'Implemented analytics and monitoring workflows to track system reliability and user behavior across reporting platforms.',
+      'Partnered with product and UX teams to analyze user journeys and improve usability and data accessibility.',
+      'Supported production deployments and release cycles for stable high-traffic public health applications.'
     ]
   },
   {
     id: 'exp2',
     company: 'Verizon',
-    role: 'Digital Operations & SEO Specialist (Enterprise Platforms)',
-    period: 'May 2024 - Aug. 2024',
+    role: 'Customer Experience & Digital Optimization',
+    period: 'Jan 2020 - Jun 2022',
     points: [
-      'Optimized enterprise website content and site structures for SEO and accessibility alignment.',
-      'Identified technical SEO issues affecting crawlability, indexation, and user experience.',
-      'Prioritized SEO-impacting issues based on traffic exposure and business risk profile.',
-      'Analyzed performance trends to support cross-functional remediation efforts.'
+      'Executed A/B testing initiatives to evaluate product and UX improvements before production rollout.',
+      'Analyzed customer journey data to identify friction points and drop-off areas across digital workflows.',
+      'Collaborated with engineering and UX teams to validate changes and maintain platform stability during experiments.',
+      'Built attribution models integrating paid, organic, and lifecycle marketing data to support investment decisions.'
+    ]
+  },
+  {
+    id: 'exp3',
+    company: 'Mircaonus Streetwear',
+    role: 'E-commerce Founder',
+    period: 'Jan 2025 - Jun 2025',
+    points: [
+      'Built and launched a direct-to-consumer e-commerce brand using Shopify.',
+      'Designed marketing funnels across customer awareness stages to support acquisition and conversion.',
+      'Conducted SEO keyword research using Ahrefs to improve organic traffic acquisition.',
+      'Managed paid acquisition campaigns across Meta Ads and Google Ads.',
+      'Analyzed campaign and user behavior data to optimize conversion performance.'
     ]
   }
 ];
 
 export const SKILLS: Skill[] = [
   {
-    category: 'SEO & Technical Foundation',
+    category: 'Product Development',
     items: [
-      'Technical SEO Audits (Enterprise-Scale)',
-      'Indexability & Crawl Efficiency',
-      'Site Architecture & Internal Linking',
-      'Accessibility & Search Compliance',
-      'Page Experience & UX Signals'
+      'React',
+      'Next.js',
+      'JavaScript (ES6+)',
+      'HTML5',
+      'CSS3',
+      'REST APIs'
     ]
   },
   {
-    category: 'Analytics & Performance Intelligence',
+    category: 'Analytics & Experimentation',
     items: [
-      'GA4 Implementation & Analysis',
-  'Google Ads Performance Analysis',
-  'Meta (Facebook) Ads Performance Insights',
-  'Traffic & Conversion Diagnostics',
-  'Performance Monitoring & Reporting',
-  'Trend Analysis & Opportunity Identification',
-  'Data-Informed Prioritization'
+      'GA4',
+      'Event Tracking',
+      'Funnel Analysis',
+      'User Behavior Analysis',
+      'A/B Testing',
+      'Hotjar',
+      'Attribution Modeling'
     ]
   },
   {
-    category: 'Cross-Functional Operations',
+    category: 'Performance & Infrastructure',
     items: [
-      'Engineering & SEO Collaboration',
-      'Content Quality & Governance',
-      'Risk Assessment & Mitigation',
-      'Workflow Alignment Across Teams',
-      'Compliance-Aware SEO Execution'
+      'Core Web Vitals (LCP, CLS, INP)',
+      'Caching Strategies',
+      'API Optimization',
+      'Performance Profiling',
+      'Deployment Workflows',
+      'CI/CD Support',
+      'Web Monitoring Tools'
+    ]
+  },
+  {
+    category: 'Growth Systems',
+    items: [
+      'Technical SEO',
+      'Keyword Research (Ahrefs)',
+      'Conversion Funnels',
+      'Google Ads',
+      'Meta Ads',
+      'Content Strategy',
+      'Marketing Automation'
+    ]
+  },
+  {
+    category: 'Platforms & Tools',
+    items: [
+      'Shopify',
+      'Git',
+      'Dashboards',
+      'Analytics Reporting',
+      'Production Monitoring'
     ]
   }
-  
 ];
