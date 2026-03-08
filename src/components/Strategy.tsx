@@ -2,17 +2,17 @@ import React from 'react';
 
 export const Strategy: React.FC = () => {
   return (
-    <div className="grid lg:grid-cols-2 gap-24 items-start">
-      <div className="sticky top-32">
-        <h2 className="text-xs font-black text-gold-500 uppercase tracking-[0.4em] mb-6">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 md:gap-16 lg:gap-24 items-start">
+      <div className="static lg:sticky lg:top-32">
+        <h2 className="text-xs sm:text-sm font-black text-gold-500 uppercase tracking-[0.3em] sm:tracking-[0.4em] mb-4 sm:mb-6">
           The Approach
         </h2>
 
-        <h3 className="text-5xl md:text-6xl font-black text-white mb-8 tracking-tighter leading-none">
+        <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 sm:mb-8 tracking-tighter leading-tight">
           How I Build <br />Product & Growth Systems
         </h3>
 
-        <div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light">
+        <div className="space-y-5 sm:space-y-6 text-gray-400 text-base sm:text-lg leading-relaxed font-light max-w-2xl">
           <p>
             I approach product development as a systems problem. Strong digital products are not built through isolated features or one-off tactics. They are built through reliable architecture, clear analytics, performance discipline, and continuous iteration tied to measurable outcomes.
           </p>
@@ -33,7 +33,7 @@ export const Strategy: React.FC = () => {
         </div>
       </div>
 
-      <div className="grid gap-6">
+      <div className="grid gap-4 sm:gap-6">
         {[
           {
             title: 'Product Engineering',
@@ -53,13 +53,17 @@ export const Strategy: React.FC = () => {
         ].map((pillar, i) => (
           <div
             key={i}
-            className="glass-panel p-10 rounded-2xl accent-border-gold group hover:bg-white/5 transition-all"
+            className="glass-panel p-6 sm:p-8 md:p-10 rounded-2xl accent-border-gold group hover:bg-white/5 transition-all"
           >
-            <span className="text-gold-500 text-2xl mb-4 block font-serif">{pillar.icon}</span>
-            <h4 className="text-white font-black text-xl mb-3 uppercase tracking-tighter">
+            <span className="text-gold-500 text-xl sm:text-2xl mb-3 sm:mb-4 block font-serif">
+              {pillar.icon}
+            </span>
+            <h4 className="text-white font-black text-lg sm:text-xl mb-3 uppercase tracking-tighter">
               {pillar.title}
             </h4>
-            <p className="text-gray-500 font-light leading-relaxed">{pillar.desc}</p>
+            <p className="text-gray-500 text-sm sm:text-base font-light leading-relaxed">
+              {pillar.desc}
+            </p>
           </div>
         ))}
       </div>
