@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface NavbarProps {
@@ -14,11 +13,15 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center p-8">
-      <div className="glass-panel px-8 py-3.5 rounded-2xl flex items-center gap-10 shadow-2xl border border-white/5">
-        <a href="#hero" className="font-black text-2xl tracking-tighter text-white hover:text-gold-500 transition-colors">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 sm:px-6 py-5 sm:py-8">
+      <div className="glass-panel w-full max-w-fit px-5 sm:px-8 py-3 sm:py-3.5 rounded-2xl flex items-center gap-4 sm:gap-10 shadow-2xl border border-white/5">
+        <a
+          href="#hero"
+          className="font-black text-2xl tracking-tighter text-white hover:text-gold-500 transition-colors shrink-0"
+        >
           NL<span className="text-gold-500">.</span>
         </a>
+
         <div className="hidden md:flex gap-8">
           {navItems.map((item) => (
             <a
@@ -32,9 +35,10 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             </a>
           ))}
         </div>
+
         <a
           href="#contact"
-          className="bg-black text-black text-[10px] uppercase tracking-tighter font-black px-5 py-2.5 rounded-lg hover:bg-gold-500 hover:text-black transition-all"
+          className="shrink-0 px-5 sm:px-6 py-2.5 rounded-lg border border-white/10 bg-white/5 text-white text-[10px] sm:text-xs uppercase tracking-[0.14em] font-black hover:bg-white/10 transition-all"
         >
           Contact Me
         </a>
