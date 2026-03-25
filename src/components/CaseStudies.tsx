@@ -7,16 +7,16 @@ export const CaseStudies: React.FC = () => {
       <div className="flex flex-col md:flex-row justify-between md:items-end mb-12 sm:mb-16 gap-6 sm:gap-8">
         <div className="max-w-xl">
           <h2 className="text-xs sm:text-sm font-black text-gold-500 uppercase tracking-[0.3em] sm:tracking-[0.4em] mb-4 sm:mb-6">
-            Selected Work
+            Case Studies
           </h2>
 
           <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter leading-tight">
-            Product & <br />Systems Case Studies.
+            Performance & <br />Optimization Work.
           </h3>
         </div>
 
         <p className="text-gray-500 text-sm sm:text-base font-light leading-relaxed max-w-xs md:max-w-sm border-l border-white/10 pl-4 sm:pl-6">
-          A selection of product, analytics, and performance work focused on scalable systems, measurable improvements, and high-impact execution across production environments.
+          A selection of work focused on improving website performance, reducing user friction, and delivering measurable impact across real-world applications.
         </p>
       </div>
 
@@ -46,7 +46,7 @@ export const CaseStudies: React.FC = () => {
               <div className="flex justify-between items-center gap-4">
                 <div>
                   <span className="block text-[9px] text-gray-600 uppercase font-black tracking-[0.2em] mb-1 italic">
-                    Measurable Outcome
+                    Impact
                   </span>
                   <span className="text-white font-black text-xl sm:text-2xl tracking-tighter">
                     {study.metric}
@@ -55,7 +55,7 @@ export const CaseStudies: React.FC = () => {
 
                 <div className="text-right">
                   <span className="block text-[9px] text-gray-600 uppercase font-black tracking-[0.2em] mb-1">
-                    Focus Area
+                    Focus
                   </span>
                   <span className="text-[10px] sm:text-xs text-gray-400 font-bold">
                     {study.tags[0]}

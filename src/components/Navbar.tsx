@@ -6,10 +6,10 @@ interface NavbarProps {
 
 export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
   const navItems = [
-    { label: 'Strategy', id: 'strategy' },
+    { label: 'Approach', id: 'strategy' },
     { label: 'Case Studies', id: 'case-studies' },
-    { label: 'Results', id: 'results' },
-    { label: 'Credentials', id: 'credentials' }
+    { label: 'Impact', id: 'results' },
+    { label: 'Experience', id: 'credentials' }
   ];
 
   return (
@@ -40,7 +40,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           href="#contact"
           className="shrink-0 px-5 sm:px-6 py-2.5 rounded-lg border border-white/10 bg-white/5 text-white text-[10px] sm:text-xs uppercase tracking-[0.14em] font-black hover:bg-white/10 transition-all"
         >
-          Contact Me
+          Contact
         </a>
       </div>
     </nav>

@@ -12,47 +12,48 @@ const EXPERIENCES: Experience[] = [
   {
     id: 'cste-2022-2024',
     period: 'July 2022 – December 2024',
-    role: 'Senior Growth Marketing & Analytics Manager',
+    role: 'Web Operations & Performance Manager',
     company: 'Council of State and Territorial Epidemiologists (CSTE)',
     points: [
-      'Designed and maintained executive-level and program-level Power BI dashboards to monitor digital engagement, campaign performance, and resource utilization supporting epidemiologists and public health leadership.',
-      'Built reusable SQL queries and structured reporting tables by joining GA4, CRM, and paid media datasets to create standardized views for downstream analytics applications.',
-      'Managed GA4 and Google Tag Manager implementation, including event mapping, data layer validation, UTM taxonomy governance, and conversion tracking accuracy across digital properties.',
-      'Established automated data refresh processes and governed BI workspaces to ensure reliable reporting and reduced manual reporting time.',
-      'Performed funnel and behavioral flow analysis to identify drop-off points, resulting in an 18% increase in web conversion rates.',
+      'Improved web conversion rates by 18% by analyzing user behavior, identifying drop-off points, and optimizing key user flows.',
+      'Improved page load performance by optimizing API integrations and implementing caching strategies across high-traffic applications.',
+      'Led GA4 and tracking implementation to ensure accurate measurement of user behavior, funnel performance, and conversion events.',
+      'Monitored site performance and reliability, proactively identifying bottlenecks impacting user access to critical reporting systems.',
+      'Worked cross-functionally with product, design, and engineering to improve usability, navigation, and overall user experience.',
     ],
   },
   {
     id: 'verizon-2020-2022',
     period: 'January 2020 – June 2022',
-    role: 'Growth Marketing & Web Analytics Specialist',
+    role: 'Web Analytics & Optimization Specialist',
     company: 'Verizon',
     points: [
-      'Monitored and reported on enterprise web performance metrics including traffic acquisition, behavioral flow, funnel performance, and conversion analytics.',
-      'Developed SQL-driven analyses to evaluate acquisition trends, campaign contribution, and user experience friction points.',
-      'Integrated advertising platform data (Google Marketing Platform, Meta Ads) into centralized reporting frameworks for cross-channel performance analysis.',
-      'Built attribution models integrating paid, organic, and lifecycle data to support strategic marketing investment decisions.',
+      'Analyzed user behavior, funnel performance, and traffic patterns to identify friction points across customer journeys.',
+      'Supported A/B testing and experimentation by validating implementations and ensuring performance stability during rollout.',
+      'Contributed to improving web experience quality by identifying risks and ensuring changes aligned with platform standards.',
+      'Built reporting frameworks to track performance across acquisition channels and user lifecycle stages.',
     ],
   },
   {
     id: 'ai-studymate-2024',
     period: 'Sep 2024',
-    role: 'AI StudyMate | Full-Stack Web App (3rd Place Finish)',
+    role: 'Full-Stack Web Application (Performance Focus)',
     company: 'PROJECTGPC / NAPA',
     points: [
-      'Implemented end-to-end event tracking and structured data tables to support funnel reporting and performance monitoring.',
-      'Designed analytics tracking architecture to monitor user behavior and optimize conversion pathways.',
-      'Maintained system uptime and ensured data accuracy during live testing and deployment.',
+      'Built and deployed a full-stack application with focus on performance, stability, and user experience during live usage.',
+      'Implemented event tracking and analytics to monitor user behavior and optimize engagement pathways.',
+      'Maintained system uptime and ensured stable performance throughout live testing with zero downtime.',
     ],
   },
   {
     id: 'shopify-2025',
     period: 'Jan 2025 – Jun 2025',
-    role: 'E-Commerce Store Development & Optimization (Independent Project)',
-    company: 'Remote',
+    role: 'E-Commerce Performance & Optimization',
+    company: 'Independent Project',
     points: [
-      'Built and operated a fully functional Shopify e-commerce store, managing analytics implementation, GA4 tracking, conversion funnel optimization, checkout flow performance, payment integrations, and lifecycle automation.',
-      'Applied structured A/B testing and behavioral analytics to improve conversion rate and average order value while maintaining operational and reporting accuracy.',
+      'Built and optimized a Shopify store with focus on conversion rate, checkout flow performance, and user experience.',
+      'Implemented analytics tracking, funnel optimization, and A/B testing to improve conversion rate and average order value.',
+      'Managed end-to-end performance including site behavior, payment flow, and lifecycle optimization.',
     ],
   },
 ];
@@ -62,10 +63,10 @@ export const Results: React.FC = () => {
     <div className="max-w-5xl mx-auto">
       <div className="text-center mb-24">
         <h2 className="text-xs font-black text-gold-500 uppercase tracking-[0.4em] mb-6">
-          Impact History
+          Impact
         </h2>
         <h3 className="text-5xl md:text-6xl font-black text-white tracking-tighter">
-          In-House Impact
+          Performance & Results
         </h3>
       </div>
 

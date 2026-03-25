@@ -23,31 +23,25 @@ export const About: React.FC = () => {
         </h2>
 
         <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 sm:mb-8 tracking-tighter leading-tight">
-          Product Engineer <br className="hidden sm:block" />
-          Focused on Systems.
+          Web Performance & <br className="hidden sm:block" />
+          Optimization Focused.
         </h3>
 
         <div className="space-y-5 sm:space-y-6 text-gray-400 text-base sm:text-lg leading-relaxed font-light">
           <p>
-            I'm Nathan Louissaint, a full-stack product engineer focused on
-            building scalable web applications and analytics-driven systems.
-            My work combines product development, performance optimization,
-            and growth infrastructure to create digital products that perform
-            reliably at scale.
+            I’m Nathan Louissaint, a Web Operations & Performance Manager focused on improving how websites actually perform. My work centers on optimizing speed, reliability, and user experience across high-traffic applications.
           </p>
 
           <p>
-            I have experience working on high-traffic platforms where
-            engineering decisions directly impact usability, performance,
-            and operational stability. My background spans front-end
-            development, analytics systems, experimentation frameworks,
-            and digital growth infrastructure.
+            I’ve worked in environments where performance directly impacts usability and outcomes—improving page load times, identifying user drop-off points, and shipping changes that reduce friction. At CSTE, I improved page performance by 40% by optimizing APIs and implementing caching strategies.
           </p>
 
           <p>
-            I enjoy solving complex product problems by building new
-            applications, improving system performance, and designing
-            data-driven workflows that help teams make better decisions.
+            My approach combines frontend development (React/Next.js), technical SEO, and analytics to understand how users interact with a product and where things break down. From there, I focus on fixing bottlenecks, improving flows, and making systems more efficient and scalable.
+          </p>
+
+          <p>
+            I work closely with product, design, and engineering teams to turn insights into improvements—ensuring websites don’t just function, but perform at a high level.
           </p>
         </div>
       </div>
