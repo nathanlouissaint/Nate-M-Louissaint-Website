@@ -42,8 +42,13 @@ export const HeroV2 = () => {
             >
               View Resume
             </a>
-            <a className="px-6 py-3 border border-white/20 rounded-lg text-white">
-              Contact
+            <a 
+              href="https://www.linkedin.com/in/nathan-louissaint-3a17a3387/"
+              target="_blank"
+              rel="noopener noreferrer"
+            className="px-6 py-3 border border-white/20 rounded-lg text-white">
+              Linked In
+              
             </a>
           </div>
         </motion.div>
